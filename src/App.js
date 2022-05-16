@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ListaTareas from "./components/ListaTareas";
+import Logo from "./components/Logo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo />
+      <div className="tareas-lista-principal">
+        <h1>Mis Tareas</h1>
+        <ListaTareas></ListaTareas>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+///retos de la gorda
+///almacenar las tareas que ingresa el user
+//para que permenezcana lla
+
+///incluir los componentes desde app sin la lista
+
+///07:12:00
